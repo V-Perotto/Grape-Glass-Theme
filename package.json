@@ -2,14 +2,41 @@
     "name": "purple-green-glass-color-theme",
     "displayName": "Purple Green Glass Color Theme",
     "description": "This theme matches with my keyboard, mouse and desktop theme.",
-    "publisher": "DistroLinux",
-    "author": "V-Perotto",
-    "version": "0.0.1",
+    "publisher": "V-Perotto",
+    "author": {
+      "name": "V-Perotto",
+      "email": "vscodium-extensions.ride690@passinbox.com",
+      "url": "https://github.com/V-Perotto/Purple-Green-Glass-Color-Theme"
+    },
+    "homepage": "https://github.com/V-Perotto/Purple-Green-Glass-Color-Theme/blob/main/README.md",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/V-Perotto/Purple-Green-Glass-Color-Theme.git"
+    },
+    "bugs": {
+      "url": "https://github.com/V-Perotto/Purple-Green-Glass-Color-Theme/issues"
+    },
+    "version": "1.0.0",
+    "icon": "keyboard.jpeg",
+    "galleryBanner": {
+      "color": "#4c1f68",
+      "theme": "dark"
+    },
     "engines": {
       "vscode": "^1.106.1"
     },
     "categories": [
       "Themes"
+    ],
+    "keywords": [
+      "theme",
+      "purple",
+      "green",
+      "customization"
+    ],
+    "extensionKind": [
+      "ui",
+      "workspace"
     ],
     "contributes": {
       "themes": [
