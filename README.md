@@ -1,12 +1,8 @@
-# PGG - Purple Green Glass Color Theme
+# Grape Glass Theme
 
 <p align="center">
-<img title="a title" alt="Alt text" src="./keyboard.jpeg" width=300px>
+<img title="a title" alt="Alt text" src="./logo.png" width=300px>
 </p>
-
-## Notes
-
-To add the theme correctly in VSCodium, disable all pre-installed themes.
 
 ## VSCodium Example
 
@@ -17,6 +13,10 @@ To add the theme correctly in VSCodium, disable all pre-installed themes.
 <p align="center">
 <img title="a title" alt="Alt text" src="./zoomed_example.png">
 </p>
+
+## Important
+
+If you have problems using this theme, open a [Issue](https://github.com/V-Perotto/Grape-Glass-Theme/issues/new) and send me a screenshot to analyse your request (check if there is an extension that may be causing these issues)
 
 ## Author
 

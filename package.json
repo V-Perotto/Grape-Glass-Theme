@@ -1,25 +1,25 @@
 {
-    "name": "purple-green-glass-color-theme",
-    "displayName": "Purple Green Glass Color Theme",
+    "name": "grape-glass-theme",
+    "displayName": "Grape Glass Theme",
     "description": "This theme matches with my keyboard, mouse and desktop theme.",
     "publisher": "DistroLinux",
     "author": {
       "name": "V-Perotto",
       "email": "vscodium-extensions.ride690@passinbox.com",
-      "url": "https://github.com/V-Perotto/Purple-Green-Glass-Color-Theme"
+      "url": "https://github.com/V-Perotto/Grape-Glass-Theme"
     },
-    "homepage": "https://github.com/V-Perotto/Purple-Green-Glass-Color-Theme/blob/main/README.md",
+    "homepage": "https://github.com/V-Perotto/Grape-Glass-Theme/blob/main/README.md",
     "repository": {
       "type": "git",
-      "url": "git+https://github.com/V-Perotto/Purple-Green-Glass-Color-Theme.git"
+      "url": "git+https://github.com/V-Perotto/Grape-Glass-Theme.git"
     },
     "bugs": {
-      "url": "https://github.com/V-Perotto/Purple-Green-Glass-Color-Theme/issues"
+      "url": "https://github.com/V-Perotto/Grape-Glass-Theme/issues"
     },
     "version": "1.0.1",
     "icon": "keyboard.jpeg",
     "galleryBanner": {
-      "color": "#4c1f68",
+      "color": "#3D174E",
       "theme": "dark"
     },
     "engines": {
@@ -41,9 +41,9 @@
     "contributes": {
       "themes": [
         {
-          "label": "Purple Green Glass",
+          "label": "Grape Glass",
           "uiTheme": "vs-dark",
-          "path": "./themes/Purple Green Glass-color-theme.json"
+          "path": "./themes/grape-glass-theme.json"
         }
       ]
     },
