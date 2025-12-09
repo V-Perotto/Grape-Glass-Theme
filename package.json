@@ -1,21 +1,24 @@
 {
-  "name": "purple-green-glass-color-theme",
-  "displayName": "Purple Green Glass Color Theme",
-  "description": "This theme matches with my keyboard, mouse and desktop theme.",
-  "version": "0.0.1",
-  "engines": {
-    "vscode": "^1.106.1"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "Purple Green Glass",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Purple Green Glass-color-theme.json"
-      }
-    ]
-  }
+    "name": "purple-green-glass-color-theme",
+    "displayName": "Purple Green Glass Color Theme",
+    "description": "This theme matches with my keyboard, mouse and desktop theme.",
+    "publisher": "DistroLinux",
+    "author": "V-Perotto",
+    "version": "0.0.1",
+    "engines": {
+      "vscode": "^1.106.1"
+    },
+    "categories": [
+      "Themes"
+    ],
+    "contributes": {
+      "themes": [
+        {
+          "label": "Purple Green Glass",
+          "uiTheme": "vs-dark",
+          "path": "./themes/Purple Green Glass-color-theme.json"
+        }
+      ]
+    },
+    "license": "MIT"
 }
