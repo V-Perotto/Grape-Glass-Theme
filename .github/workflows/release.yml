@@ -29,19 +29,24 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "lts/*" # Use the Node.js version required for your project
+          cache: 'pnpm'
+
+      # Step 3: Install pnpm
+      - name: Install pnpm
+        run: npm i -g pnpm@latest
 
       # Step 3: Cache Node.js modules to speed up future builds
       - name: Install dependencies
-        run: npm clean-install
+        run: pnpm ci
       
       - name: Verify the integrity of provenance attestations and registry signatures for installed dependencies
-        run: npm audit signatures
+        run: pnpm audit && pnpm audit fix
 
-      - name: Cache Node.js modules
+      - name: Cache pnpm Node.js modules
         uses: actions/cache@v4
         with:
           path: node_modules
-          key: ${{ runner.os }}-node-modules-${{ hashFiles('**/package-lock.json') }}
+          key: ${{ runner.os }}-node-modules-${{ hashFiles('**/pnpm-lock.yaml') }}
           restore-keys: |
             ${{ runner.os }}-node-modules-
 
