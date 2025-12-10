@@ -1,51 +1,108 @@
 {
-    "name": "grape-glass-theme",
-    "displayName": "Grape Glass Theme",
-    "description": "This theme matches with my keyboard, mouse and desktop theme.",
-    "publisher": "DistroLinux",
-    "author": {
-      "name": "V-Perotto",
-      "email": "vscodium-extensions.ride690@passinbox.com",
-      "url": "https://github.com/V-Perotto/Grape-Glass-Theme"
-    },
-    "homepage": "https://github.com/V-Perotto/Grape-Glass-Theme/blob/main/README.md",
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/V-Perotto/Grape-Glass-Theme.git"
-    },
-    "bugs": {
-      "url": "https://github.com/V-Perotto/Grape-Glass-Theme/issues"
-    },
-    "version": "1.1.0",
-    "icon": "logo.png",
-    "galleryBanner": {
-      "color": "#3D174E",
-      "theme": "dark"
-    },
-    "engines": {
-      "vscode": "^1.106.1"
-    },
-    "categories": [
-      "Themes"
+  "name": "grape-glass-theme",
+  "displayName": "Grape Glass Theme",
+  "description": "This theme matches with my keyboard, mouse and desktop theme.",
+  "publisher": "DistroLinux",
+  "author": {
+    "name": "V-Perotto",
+    "email": "vscodium-extensions.ride690@passinbox.com",
+    "url": "https://github.com/V-Perotto/Grape-Glass-Theme"
+  },
+  "homepage": "https://github.com/V-Perotto/Grape-Glass-Theme/blob/main/README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/V-Perotto/Grape-Glass-Theme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/V-Perotto/Grape-Glass-Theme/issues"
+  },
+  "version": "1.1.0",
+  "icon": "logo.png",
+  "galleryBanner": {
+    "color": "#3D174E",
+    "theme": "dark"
+  },
+  "engines": {
+    "vscode": "^1.106.1"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "purple",
+    "green",
+    "customization"
+  ],
+  "extensionKind": [
+    "ui",
+    "workspace"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Grape Glass",
+        "uiTheme": "vs-dark",
+        "path": "./themes/grape-glass-theme.json"
+      }
+    ]
+  },
+  "license": "MIT",
+  "scripts": {
+    "prepare": "husky"
+  },
+  "release": {
+    "branches": [
+      "main"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{json,md}": [
+      "prettier --write"
+    ]
+  },
+  "plugins": [
+    "@semantic-release/commit-analyzer",
+    "@semantic-release/release-notes-generator",
+    "@semantic-release/changelog",
+    [
+      "@semantic-release/github",
+      {
+        "assets": [
+          {
+            "path": "dist.zip",
+            "label": "Distribution"
+          }
+        ]
+      }
     ],
-    "keywords": [
-      "theme",
-      "purple",
-      "green",
-      "customization"
-    ],
-    "extensionKind": [
-      "ui",
-      "workspace"
-    ],
-    "contributes": {
-      "themes": [
-        {
-          "label": "Grape Glass",
-          "uiTheme": "vs-dark",
-          "path": "./themes/grape-glass-theme.json"
-        }
-      ]
-    },
-    "license": "MIT"
+    [
+      "@semantic-release/git",
+      {
+        "assets": [
+          "package.json",
+          "CHANGELOG.md"
+        ],
+        "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
+      }
+    ]
+  ],
+  "packageManager": "pnpm@10.25.0+sha512.5e82639027af37cf832061bcc6d639c219634488e0f2baebe785028a793de7b525ffcd3f7ff574f5e9860654e098fe852ba8ac5dd5cefe1767d23a020a92f501",
+  "devDependencies": {
+    "@commitlint/cli": "^20.2.0",
+    "@commitlint/config-conventional": "^20.2.0",
+    "@semantic-release/changelog": "6.0.3",
+    "@semantic-release/commit-analyzer": "13.0.1",
+    "@semantic-release/git": "10.0.1",
+    "@semantic-release/github": "12.0.2",
+    "@semantic-release/release-notes-generator": "14.1.0",
+    "husky": "^9.1.7",
+    "prettier": "^3.7.4",
+    "semantic-release": "25.0.2"
+  }
 }
