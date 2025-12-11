@@ -11,10 +11,10 @@ permissions:
 jobs:
   release:
     permissions:
-      contents: write       # to be able to publish a GitHub release
-      issues: write         # to be able to comment on released issues
-      pull-requests: write  # to be able to comment on released pull requests
       runs-on: ubuntu-latest  # Runs on an Ubuntu runner
+      contents: write         # to be able to publish a GitHub release
+      issues: write           # to be able to comment on released issues
+      pull-requests: write    # to be able to comment on released pull requests
 
     steps:
       - name: Checkout Repository
