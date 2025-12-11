@@ -68,7 +68,7 @@ jobs:
       - name: Run Semantic Release
         run: npx semantic-release
         id: semantic
-        uses: cycjimmy/semantic-release-action@v6
+        uses: cycjimmy/semantic-release-action@v4
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
