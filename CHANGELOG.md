@@ -1,3 +1,9 @@
+## [1.3.1](https://github.com/V-Perotto/Grape-Glass-Theme/compare/v1.3.0...v1.3.1) (2025-12-11)
+
+### Bug Fixes
+
+- 🐛 Force syncronization to workflow ([fe5fb47](https://github.com/V-Perotto/Grape-Glass-Theme/commit/fe5fb47e2045f64c2bcb856b1c2f971a02b74da9))
+
 # [1.3.0](https://github.com/V-Perotto/Grape-Glass-Theme/compare/v1.2.0...v1.3.0) (2025-12-11)
 
 ### Features
