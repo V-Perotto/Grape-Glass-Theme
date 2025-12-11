@@ -28,13 +28,13 @@ const Configuration: CommitlintUserConfig = {
     types: [
       {
         value: 'build',
-        name: '🛠️ build:     Changes that affect the build system or external dependencies',
-        emoji: '🛠️',
+        name: '🛠️  build:     Changes that affect the build system or external dependencies',
+        emoji: '🛠️ ',
       },
       {
         value: 'ci',
-        name: '⚙️ ci:        Changes to our CI configuration files and scripts',
-        emoji: '⚙️',
+        name: '⚙️  ci:        Changes to our CI configuration files and scripts',
+        emoji: '⚙️ ',
       },
       {
         value: 'docs',
@@ -73,8 +73,8 @@ const Configuration: CommitlintUserConfig = {
       },
       {
         value: 'chore',
-        name: "♻️ chore:     Other changes that don't modify src or test files",
-        emoji: '♻️',
+        name: "♻️  chore:     Other changes that don't modify src or test files",
+        emoji: '♻️ ',
       },
       {
         value: 'revert',
@@ -83,8 +83,8 @@ const Configuration: CommitlintUserConfig = {
       },
       {
         value: 'bump',
-        name: '⬆️ bump:      Bump version',
-        emoji: '⬆️',
+        name: '⬆️  bump:      Bump version',
+        emoji: '⬆️ ',
       },
     ],
     useEmoji: true,
