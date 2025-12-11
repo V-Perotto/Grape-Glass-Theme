@@ -71,7 +71,11 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Package Extension
+        run: npx vsce package
+
       - name: Publish to Open VSX
+        # if: steps.semantic.outputs.new_release_published == 'true'
         run: npx ovsx publish
         env:
           OVSX_PAT: ${{ secrets.OVSX_PAT }}
