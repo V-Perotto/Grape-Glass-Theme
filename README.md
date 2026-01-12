@@ -3,6 +3,12 @@
 <p align="center">
 <img title="Wine Glass Purple and Green" alt="Wine Glass Purple and Green - Logo" src="./logo.png" width=250px style="border-radius: 150px">
 </p>
+ 
+<p align="center">
+  <a href="https://open-vsx.org/extension/DistroLinux/grape-glass-theme">
+    <img src="https://img.shields.io/open-vsx/dt/DistroLinux/grape-glass-theme?style=for-the-badge&logo=vscodium&logoColor=%23389e81&logoSize=auto&label=Downloads&color=%23852ffc&cacheSeconds=60" alt="Open VSX Downloads">
+  </a>
+</p>
 
 <h2 align="center">What inspired this theme</h2>
 <h3 align="center">My Keyboard</h3>
