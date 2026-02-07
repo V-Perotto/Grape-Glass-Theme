@@ -1,3 +1,9 @@
+# [1.4.0](https://github.com/V-Perotto/Grape-Glass-Theme/compare/v1.3.2...v1.4.0) (2026-02-07)
+
+### Features
+
+- ✨ Add new colors to match theme ([6220794](https://github.com/V-Perotto/Grape-Glass-Theme/commit/622079489f17da35be501978421d85f7c63c067e))
+
 ## [1.3.2](https://github.com/V-Perotto/Grape-Glass-Theme/compare/v1.3.1...v1.3.2) (2025-12-11)
 
 ### Bug Fixes
