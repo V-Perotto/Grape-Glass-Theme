@@ -1,3 +1,9 @@
+# [1.5.0](https://github.com/V-Perotto/Grape-Glass-Theme/compare/v1.4.0...v1.5.0) (2026-02-09)
+
+### Features
+
+- ✨ Add my terminal colors to terminal colors theme ([6fee422](https://github.com/V-Perotto/Grape-Glass-Theme/commit/6fee422ddc42cc1b1049550511b6d6151c6ef944))
+
 # [1.4.0](https://github.com/V-Perotto/Grape-Glass-Theme/compare/v1.3.2...v1.4.0) (2026-02-07)
 
 ### Features
