@@ -17,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/V-Perotto/Grape-Glass-Theme/issues"
   },
-  "version": "1.4.0",
+  "version": "1.5.0",
   "icon": "logo.png",
   "galleryBanner": {
     "color": "#3D174E",
@@ -90,6 +90,12 @@
         }
       ],
       [
+        "@semantic-release/npm",
+        {
+          "npmPublish": false
+        }
+      ],
+      [
         "@semantic-release/github",
         {
           "assets": [
@@ -125,7 +131,7 @@
       "path": "./node_modules/cz-git"
     }
   },
-  "packageManager": "pnpm@10.28.2+sha512.41872f037ad22f7348e3b1debbaf7e867cfd448f2726d9cf74c08f19507c31d2c8e7a11525b983febc2df640b5438dee6023ebb1f84ed43cc2d654d2bc326264",
+  "packageManager": "pnpm@10.29.2+sha512.bef43fa759d91fd2da4b319a5a0d13ef7a45bb985a3d7342058470f9d2051a3ba8674e629672654686ef9443ad13a82da2beb9eeb3e0221c87b8154fff9d74b8",
   "devDependencies": {
     "@commitlint/cli": "^20.3.1",
     "@commitlint/config-conventional": "^20.3.1",
@@ -134,6 +140,7 @@
     "@semantic-release/commit-analyzer": "13.0.1",
     "@semantic-release/git": "10.0.1",
     "@semantic-release/github": "12.0.2",
+    "@semantic-release/npm": "^13.1.4",
     "@semantic-release/release-notes-generator": "14.1.0",
     "commitizen": "^4.3.1",
     "conventional-changelog-conventionalcommits": "^9.1.0",
