@@ -10,12 +10,20 @@
   </a>
 </p>
 
+<h1 align="center">🥳 Thank You ALL for more than 1K Downloads!</h1>
+
 <h2 align="center">What inspired this theme</h2>
 <h3 align="center">My Keyboard</h3>
 <p align="center">
+  I really liked the buttons colors and transparency with light effects.
+</p>
+<p align="center">
 <img title="My keyboard" alt="My keyboard" src="./keyboard.png" width=300px style="border-radius: 15px">
 </p>
-<h2 align="center">VSCodium Example</h2>
+<h2 align="center">VSCodium Theme - Screenshots</h2>
+<p align="center">
+  Then I thought: <i>"Why not match it with my keyboard?"</i>
+</p>
 <h3 align="center">Zoomed</h3>
 <p align="center">
 <img title="Zoomed theme example" alt="Zoomed theme example" src="./zoomed_example.png" style="border-radius: 15px">
@@ -30,6 +38,7 @@
 
 If you have problems using this theme, open a [Issue](https://github.com/V-Perotto/Grape-Glass-Theme/issues/new) and send me a screenshot to analyse your request (check if there is an extension that may be causing these issues)
 
-## Author:
-
-[@V-Perotto](https://github.com/V-Perotto)
+<hr />
+<p align="center">
+  Created by <a href="https://github.com/V-Perotto">V-Perotto</a> and published on <a href="https://open-vsx.org/namespace/DistroLinux">Open VSX - DistroLinux</a> with <a href="http://opensource.org/licenses/MIT">MIT  © Licence</a> 
+</p>
