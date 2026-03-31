@@ -1,3 +1,9 @@
+# [1.6.0](https://github.com/V-Perotto/Grape-Glass-Theme/compare/v1.5.0...v1.6.0) (2026-03-31)
+
+### Features
+
+- ✨ 🥳 Thank You ALL for more than 1K Downloads! ([1eb4b46](https://github.com/V-Perotto/Grape-Glass-Theme/commit/1eb4b4630083834c17ee8024cd56288e68c0eafc))
+
 # [1.5.0](https://github.com/V-Perotto/Grape-Glass-Theme/compare/v1.4.0...v1.5.0) (2026-02-09)
 
 ### Features
