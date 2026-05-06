@@ -1,3 +1,9 @@
+# [1.7.0](https://github.com/V-Perotto/Grape-Glass-Theme/compare/v1.6.0...v1.7.0) (2026-05-06)
+
+### Features
+
+- ✨ Add new colors to entire editor ([829680e](https://github.com/V-Perotto/Grape-Glass-Theme/commit/829680e32e4c1969aa8583ec006e4cdfb6c6ceba))
+
 # [1.6.0](https://github.com/V-Perotto/Grape-Glass-Theme/compare/v1.5.0...v1.6.0) (2026-03-31)
 
 ### Features
