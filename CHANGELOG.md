@@ -1,3 +1,9 @@
+## [1.7.1](https://github.com/V-Perotto/Grape-Glass-Theme/compare/v1.7.0...v1.7.1) (2026-05-06)
+
+### Bug Fixes
+
+- 🐛 I forgot to update new example images lol ([f7dfee0](https://github.com/V-Perotto/Grape-Glass-Theme/commit/f7dfee00f9e9fe0d2e1de163a7089d07af323753))
+
 # [1.7.0](https://github.com/V-Perotto/Grape-Glass-Theme/compare/v1.6.0...v1.7.0) (2026-05-06)
 
 ### Features
