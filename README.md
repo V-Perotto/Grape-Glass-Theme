@@ -10,7 +10,7 @@
   </a>
 </p>
 
-<h1 align="center">🥳 Thank You ALL for more than 3K Downloads! :tada:</h1>
+<h1 align="center">:tada: Thank You ALL for more than 3K Downloads! </h1>
 
 <h2 align="center">What inspired this theme</h2>
 <h3 align="center">My Keyboard</h3>
