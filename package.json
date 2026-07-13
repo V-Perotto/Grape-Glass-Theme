@@ -131,24 +131,24 @@
       "path": "./node_modules/cz-git"
     }
   },
-  "packageManager": "pnpm@11.1.1+sha512.d1fdf5f73c617b64fa1a56a81c3c8dfe0e966e33a6010aa256b517ae77be21d93e05affc0de1a83b0e4f29d569f68b446ae8f068cd7247c0bb3df0fb4d7bdf9a",
+  "packageManager": "pnpm@11.13.0+sha512.88d94724d8f2e6c186744a5584c6e59ecac869ec7ba15e9cb4cd628e8dc7066820b2481d8ee3b51ea8da323a7378068aa58c556a3720d32b7c20a051d088363a",
   "devDependencies": {
-    "@commitlint/cli": "^21.0.1",
-    "@commitlint/config-conventional": "^21.0.1",
-    "@commitlint/types": "^21.0.1",
+    "@commitlint/cli": "^21.2.1",
+    "@commitlint/config-conventional": "^21.2.0",
+    "@commitlint/types": "^21.2.0",
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/commit-analyzer": "13.0.1",
     "@semantic-release/git": "10.0.1",
     "@semantic-release/github": "12.0.6",
-    "@semantic-release/npm": "^13.1.4",
+    "@semantic-release/npm": "^13.1.5",
     "@semantic-release/release-notes-generator": "14.1.0",
-    "commitizen": "^4.3.1",
-    "conventional-changelog-conventionalcommits": "^9.1.0",
-    "cz-git": "^1.12.0",
+    "commitizen": "^4.3.2",
+    "conventional-changelog-conventionalcommits": "^9.3.1",
+    "cz-git": "^1.13.1",
     "husky": "^9.1.7",
-    "lodash-es": "^4.17.23",
-    "ovsx": "^0.10.9",
-    "prettier": "^3.8.1",
+    "lodash-es": "^4.18.1",
+    "ovsx": "^0.10.12",
+    "prettier": "^3.9.5",
     "semantic-release": "25.0.3"
   }
 }
