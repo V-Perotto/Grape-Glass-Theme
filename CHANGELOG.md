@@ -1,3 +1,9 @@
+## [1.8.1](https://github.com/V-Perotto/Grape-Glass-Theme/compare/v1.8.0...v1.8.1) (2026-08-14)
+
+### Bug Fixes
+
+- 🐛 Update docs ([248d92f](https://github.com/V-Perotto/Grape-Glass-Theme/commit/248d92f07bacdd4962d8db41e39cabec3fa181b7))
+
 # [1.8.0](https://github.com/V-Perotto/Grape-Glass-Theme/compare/v1.7.1...v1.8.0) (2026-07-13)
 
 ### Bug Fixes
